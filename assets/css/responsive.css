@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 1360px) {
+    .container{
+        padding: 0px 30px ;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .statistics.px-8.py-4.rounded-lg.absolute.bg-white.text-center.-top-10.md\:-right-44.-right-24 {
+        right: -28px;
+        padding: 10px;
+        top: 10px;
+    }
+    .level img{
+        bottom: -50px;
+        right: 0;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .msg-bg.w-3\/4.bg-\[--bgMsgBox\].relative.px-4.py-7 {
+        width: 100%;
+    }
+    .msg-bg p.text-black.text-xs.py-4.px-5.bg-white.ms-10.rounded-3xl.rounded-br-none.my-3.relative.-right-14 {
+        margin: 10px 0;
+        right: 0;
+    }
+    img.absolute.-right-20.bottom-20 {
+        right: 0;
+    }
+    .newsletter-wrap.bg-\[--bgColor\].flex.lg\:flex-row.flex-col.justify-between.items-end.gap-x-20.px-10.lg\:pt-10.relative {
+        padding: 10px;
+    }
+    .newsletter-section .container, .header-section .container {
+        padding: 0px 10px;
+    }
+    .newsletter-wrap img.absolute.right-10.-bottom-20.rotate-45.z-\[-10\] {
+        width: 70%;
+    }
+}

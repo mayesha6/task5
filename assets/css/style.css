@@ -1,0 +1,47 @@
+/* global css  */
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-size:20px;
+    font-family: "Poppins", sans-serif;
+}
+*:focus {
+    outline: none;
+}
+
+/* single-course-info  */
+.single-course-info p{
+    font-family: "Open Sans", sans-serif;
+}
+.footer-menus h3{
+    font-family: "Mulish", system-ui;
+}
+.level, .statistics, .notification {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.level::after, .statistics::after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    top: 12px;
+    left: 0px;
+    border-radius: 16px;
+    z-index: -2;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.statistics::before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 14px;
+    border-radius: 16px;
+    z-index: -2;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+

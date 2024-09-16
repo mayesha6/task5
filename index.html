@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayesha - EdTech</title>
+    <!-- font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Mulish:wght@700&family=Open+Sans&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind css link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- variable css -->
+    <link rel="stylesheet" href="assets/css/variable.css">  
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css">  
+    <!-- responsive css  -->
+     <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- start header section  -->
+    <header class="header-section">
+        <div class="container mx-auto">
+            <div class="header-wrap flex lg:flex-row flex-col justify-between items-center py-1 relative">
+                <div class="logo flex flex-row justify-between items-center w-full lg:w-auto">
+                    <a href="index.html" class="block">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                    <div class="menu-bar lg:hidden block cursor-pointer" id="menu-bar">
+                        <i class="fa-solid fa-bars-staggered text-xl hover:text-[--btnBg] duration-300"></i>
+                    </div>
+                    <div class="close-btn hidden cursor-pointer" id="close-btn">
+                        <i class="fa-solid fa-xmark text-xl hover:text-[--btnBg] duration-300"></i>
+                    </div>
+                </div>
+                <nav class="menu lg:block hidden lg:relative absolute right-0 top-[70px] lg:top-0  w-[200px] bg-white lg:w-auto z-[999]" id="menu">
+                    <ul class="">
+                        <li class="block lg:inline-block rounded py-2 px-4"><a href="#" class="text-sm font-medium capitalize duration-300 hover:text-[--btnBg]">home</a></li>
+                        <li class="block lg:inline-block rounded py-2 px-4"><a href="#" class="text-sm font-medium capitalize duration-300 hover:text-[--btnBg]">about us</a></li>
+                        <li class="block lg:inline-block rounded py-2 px-4"><a href="#" class="text-sm font-medium capitalize duration-300 hover:text-[--btnBg]">courses</a></li>
+                        <li class="block lg:inline-block rounded py-2 px-4"><a href="#" class="text-sm font-medium capitalize duration-300 hover:text-[--btnBg]">Apparentiships</a></li>
+                        <li class="block lg:inline-block rounded py-2 px-4"><a href="#" class="text-sm font-medium capitalize duration-300 hover:text-[--btnBg]">more</a></li>
+                    </ul>
+                </nav>
+                <nav class="login lg:block hidden lg:relative absolute right-0 top-[319px] lg:top-0 w-[200px] lg:w-auto z-[999] bg-white" id="login">
+                    <ul class="">
+                        <li class="block lg:inline-block rounded py-2 px-4 text-left hover:text-center"><a href="#" class="text-sm font-medium capitalize duration-300  hover:text-[--btnBg]">sign in</a></li>
+                        <li class="block lg:inline-block rounded py-2 px-4 text-left hover:text-center bg-[--btnBg] text-white hover:bg-[--grayishColor]  duration-300"><a href="#" class="text-sm font-medium capitalize">login</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </div>
+    </header>
+    <!-- end header section  -->
+
+    <!-- start hero section  -->
+    <section class="hero-section my-20">
+        <div class="container-fluid mx-auto">
+            <div class="hero-wrap flex lg:flex-row flex-col gap-20 justify-between items-center py-1 relative">
+                <div class="hero-content sm:p-10 p-4 lg:ps-36 order-2 lg:order-1">
+                    <h3 class="text-xl font-medium uppercase text-[--bluishColor] tracking-wide">TRAINING TO SUCCEED</h3>
+                    <h1 class="text-[47px] leading-[57px] md:text-[70px] md:leading-[82px] font-bold text-[--grayishColor] py-2">Believe and you can achieve</h1>
+                    <p class="text-xl font-medium text-black pt-3 pb-5">Learn any skill from comfort of your home Anywhere and Anytime for only $10</p>
+                    <a href="#" class="common-btn rounded py-2 px-4 bg-[--btnBg] text-white inline-block text-lg font-semibold hover:bg-[--grayishColor] duration-300">Apply Now <i class="fa-solid fa-arrow-right text-white text-lg font-semibold ps-1"></i></a>
+                </div>
+                <div class="hero-img order-1 lg:order-2 relative lg:static w-full lg:w-auto">
+                    <img src="assets/img/hero-circle.png" alt="" class="absolute top-0 left-0 z-[-2]">
+                    <img src="assets/img/hero-tri.png" alt="" class="absolute top-0 left-[50%] translate-x[-50%] z-[-2]">
+                    <img src="assets/img/hero-penta.png" alt=""  class="absolute top-0 right-0 z-[-2] w-[20px] sm:w-auto">
+                    <img src="assets/img/hero.png" alt="" class="w-full">
+                    <img src="assets/img/hero-circle2.png" alt=""  class="absolute bottom-20 right-0 z-[-2] w-[50px]">
+                    <img src="assets/img/hero-square.png" alt=""  class="absolute bottom-0 left-0 z-[-2]">
+                    <img src="assets/img/hero-dots.jpg" alt="" class="absolute bottom-0 left-[23%] translate-x[-23%] md:left-[43%] md:translate-x[-43%] z-[-4] w-52">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero section -->
+
+    <!-- start teachers section  -->
+    <section class="teachers-section my-30">
+        <div class="container mx-auto">
+            <div class="teachers-wrap flex lg:flex-row flex-col gap-20 justify-between items-start py-1 relative">
+                <div class="teachers-class relative">
+                    <div class="notification flex bg-white p-2 rounded-lg relative -top-6">
+                        <div class="notification-icon">
+                            <i class="fa-regular fa-circle-check p-2 rounded me-2 bg-blue-950 text-white"></i>
+                        </div>
+                        <div class="notification-content">
+                            <h4 class="font-semibold text-sm">Congratulations</h4>
+                            <p class="text-xs text-[--grayishColor5]">Your admission completed</p>
+                        </div>
+                    </div>
+                    <div class="level p-3 rounded-lg relative bg-white relative">
+                        <img src="assets/img/newsletter.png" alt="" class="absolute -right-20 bottom-10 w-[200px] z-[-333]">
+                        <div class="level-img">
+                            <img src="assets/img/teacher.png" alt="">
+                        </div>
+                        <div class="level-content">
+                            <p class="py-2 capitalize medium tex-xs text-[--orangeColor]">Music Mastery </p>
+                            <h4 class="semibold text-lg">Basic to higher level</h4>
+                            <p class="text-[--grayishColor5] capitalize text-sm pt-1 pb-2">Class 01</p>
+                            <div class="flex justify-between items-center">
+                                <p class="text-[--grayishColor5] capitalize text-sm">Today 07.PM - 09.PM</p>
+                                <a href="#" class="uppercase medium text-white bg-[--greenColor] hover:bg-[--orangeColor] duration-300 text-xs py-1 px-2 rounded">join now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="statistics px-8 py-4 rounded-lg absolute bg-white text-center -top-10 md:-right-44 -right-24">
+                        <h2 class="font-semibold text-sm text-[#04004D] pb-3">Teachers Statistics</h2>
+                        <div class="statistics-img relative">
+                            <img src="assets/img/statistics1.png" alt="" class="mx-auto">
+                            <img src="assets/img/statistics2.png" alt="" class="absolute top-0 left-[21px]">
+                        </div>
+                        <div class="statistics-content mt-4">
+                            <ul class="flex gap-2">
+                                <li class="bg-[--orangeColor2] p-3 w-1/2 rounded">
+                                    <p class="text-[--orangeColor] text-xl font-semibold">30%</p>
+                                    <p class="text-[--orangeColor] text-[8px] capitalize font-medium">Others Sector</p>
+                                </li>
+                                <li class="bg-[--greenColor2] p-3 w-1/2 rounded">
+                                    <p class="text-[--greenColor] text-xl font-semibold">70%</p>
+                                    <p class="text-[--greenColor] text-[8px] capitalize font-medium">IT Sector</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="teachers-content lg:w-1/2 w-full relative">
+                    <h2 class="font-bold md:text-5xl text-3xl">Get the Best Class by the Best Teachers</h2>
+                    <p class="text-[--greenColor] text-base py-3">Get your best class and gain the great thing from the best and well qualified experienced teachers all over the world and get shinny. We are a unique training provider willing to give you all the skills and experience you need to fulfil your future career</p>
+                    <a href="#" class="text-[--greenColor] text-base">
+                        Read more
+                        <i class="fa-solid fa-arrow-right-long text-[--greenColor] text-base"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end teachers section -->
+
+    <!-- start course info section  -->
+    <section class="course-info-section my-20 relative">
+        <div class="container mx-auto">
+            <div class="course-info-wrap grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-20">
+                <img src="assets/img/course.png" alt="" class="absolute -left-14 top-0">
+                <img src="assets/img/course.png" alt="" class="absolute left-2 top-0">
+                <img src="assets/img/course.png" alt="" class="absolute -left-14 top-4">
+                <img src="assets/img/course.png" alt="" class="absolute left-2 top-4">
+                <div class="single-course-info text-center">
+                    <i class="fa-solid fa-person-chalkboard text-6xl text-[--grayishColor2]"></i>
+                    <h3 class="text-2xl font-medium text-[--blackishColor] py-3 capitalize">Experienced Teacher</h3>
+                    <p class="text-base text-[--grayishColor3]">We teach in small groups with experienced, supportive staff who are trained to understand some of the problems our students face.  </p>
+                </div>
+                <div class="single-course-info text-center">
+                    <i class="fa-solid fa-chart-simple text-6xl text-[--grayishColor2]"></i>
+                    <h3 class="text-2xl font-medium text-[--blackishColor] py-3 capitalize">progressive Learning</h3>
+                    <p class="text-base text-[--grayishColor3]">We teach in small groups with experienced, supportive staff who are trained to understand some of the problems our students face.  </p>
+                </div>
+                <div class="single-course-info text-center">
+                    <i class="fa-solid fa-user-graduate text-6xl text-[--grayishColor2]"></i>
+                    <h3 class="text-2xl font-medium text-[--blackishColor] py-3">Graduate and  job ready</h3>
+                    <p class="text-base text-[--grayishColor3]">We teach in small groups with experienced, supportive staff who are trained to understand some of the problems our students face.  </p>
+                </div>
+                <img src="assets/img/course.png" alt="" class="absolute right-0 -bottom-20">
+                <img src="assets/img/course.png" alt="" class="absolute right-16 -bottom-20">
+                <img src="assets/img/course.png" alt="" class="absolute right-0 -bottom-24">
+                <img src="assets/img/course.png" alt="" class="absolute right-16 -bottom-24">
+            </div>
+        </div>
+    </section>
+    <!-- end course info section -->
+
+    <!-- start feature course section  -->
+    <section class="feature-course-section my-28 relative">
+        <img src="assets/img/hero-circle2.png" alt="" class="absolute bottom-0 right-0 w-[40px]">
+        <div class="container mx-auto">
+            <div class="feature-course-wrap">
+                <h2 class="text-4xl capitalize font-semibold text-black pb-2">Featured Course</h2>
+                <p class="text-base text-[--grayishColor4] pb-8">Everything you need to  when you're looking</p>
+                <div class="feature-course-content grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
+                    <div class="single-feature-course">
+                        <div class="single-feature-course-img">
+                            <img src="assets/img/feature-course1.png" alt="" class="w-full rounded-lg">
+                        </div>
+                        <div class="single-feature-course-content">
+                            <h2 class="text-base text-black font-semibold py-2">A Complete Web development</h2>
+                            <p class="text-sm text-[--grayishColor5] capitalize">Technology > Web development</p>
+                            <ul class="flex flex-wrap py-2 gap-2">
+                                <li>
+                                    <a href="#" class="text-sm text-black medium inline-block">
+                                        <i class="fa-solid fa-dollar-sign text-sm text-black medium inline-block"></i>
+                                        450
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-sm text-black medium inline-block">
+                                        <i class="fa-solid fa-desktop text-sm text-black medium inline-block"></i>
+                                        23.5 hours
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-sm text-black medium inline-block">
+                                        <i class="fa-regular fa-file text-sm text-black medium inline-block"></i>
+                                        52 Articles
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="single-feature-course">
+                        <div class="single-feature-course-img">
+                            <img src="assets/img/feature-course2.png" alt="" class="w-full rounded-lg">
+                        </div>
+                        <div class="single-feature-course-content">
+                            <h2 class="text-base text-black font-semibold py-2">Music Production Courses</h2>
+                            <p class="text-sm text-[--grayishColor5] capitalize">Music & Sounding</p>
+                            <ul class="flex flex-wrap py-2 gap-2">
+                                <li>
+                                    <a href="#" class="text-sm text-black medium inline-block">
+                                        <i class="fa-solid fa-dollar-sign text-sm text-black medium inline-block"></i>
+                                        450
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-sm text-black medium inline-block">
+                                        <i class="fa-solid fa-desktop text-sm text-black medium inline-block"></i>
+                                        23.5 hours
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-sm text-black medium inline-block">
+                                        <i class="fa-regular fa-file text-sm text-black medium inline-block"></i>
+                                        52 Articles
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="single-feature-course">
+                        <div class="single-feature-course-img">
+                            <img src="assets/img/feature-course3.png" alt="" class="w-full rounded-lg">
+                        </div>
+                        <div class="single-feature-course-content">
+                            <h2 class="text-base text-black font-semibold py-2">Personality development course</h2>
+                            <p class="text-sm text-[--grayishColor5] capitalize">Personal development</p>
+                            <ul class="flex flex-wrap py-2 gap-2">
+                                <li>
+                                    <a href="#" class="text-sm text-black medium inline-block">
+                                        <i class="fa-solid fa-dollar-sign text-sm text-black medium inline-block"></i>
+                                        450
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-sm text-black medium inline-block">
+                                        <i class="fa-solid fa-desktop text-sm text-black medium inline-block"></i>
+                                        23.5 hours
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-sm text-black medium inline-block">
+                                        <i class="fa-regular fa-file text-sm text-black medium inline-block"></i>
+                                        52 Articles
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end feature course section -->
+
+    <!-- start learning platform section  -->
+    <section class="learning-platform-section my-20 relative">
+        <div class="container mx-auto">
+            <div class="learning-platform-wrap flex lg:flex-row flex-col justify-between items-center gap-20 py-1">
+                <div class="learning-platform-content">
+                    <h3 class="text-base font-medium uppercase text-[--bluishColor] tracking-wide">TRAINING TO SUCCEED</h3>
+                    <h2 class="text-[48px] leading-[58px] md:text-[62px] md:leading-[72px] font-bold text-[--grayishColor] py-2">Believe and you can achieve</h2>
+                    <p class="text-lg font-medium text-[--grayishColor5] pt-3 pb-5">Learn any skill from comfort of your home Anywhere and Anytime for only $10</p>
+                    <a href="#" class="common-btn rounded py-2 px-4 bg-[--btnBg] text-white inline-block text-lg font-semibold hover:bg-[--grayishColor] duration-300">Start Free Trial</a>
+                </div>
+                <div class="learning-platform-img relative">
+                    <img src="assets/img/learing.png" alt=""> 
+                    <img src="assets/img/learning3.png" alt="" class="absolute -top-12 -left-16  z-[-10]">                   
+                    <img src="assets/img/learning4.png" alt="" class="absolute -bottom-10 -right-6  z-[-10]">                   
+                </div>
+            </div>
+        </div>
+        <img src="assets/img/learning2.png" alt="" class="absolute left-0 -bottom-13">
+    </section>
+    <!-- end learning platform section -->
+
+    <!-- start newsletter section  -->
+    <section class="newsletter-section my-20">
+        <div class="container mx-auto">
+            <div class="newsletter-wrap bg-[--bgColor] flex lg:flex-row flex-col justify-between items-end gap-x-20 px-10 lg:pt-10 relative">
+                <img src="assets/img/newsletter2.png" alt="" class="absolute right-0 top-4">
+                <img src="assets/img/newsletter.png" alt="" class="absolute right-10 -bottom-20 rotate-45 z-[-10]">
+                <div class="newsletter-form py-10">
+                    <h3 class="text-lg font-medium uppercase text-[--bluishColor] tracking-[6px]">TRAINING TO SUCCEED</h3>
+                    <h2 class="text-[40px] leading-[52px] font-semibold text-[--grayishColor] pt-1 pb-8">Believe and you can achieve</h2>
+                    <form>
+                        <div class="email relative">
+                            <input type="email" id="email" placeholder="Enter your email..." class="text-base text-black p-2 w-full">
+                            <button type="submit">
+                                <i class="fa-solid fa-arrow-right-long  absolute top-0 right-0 py-2 px-3 m-1 inline-block text-white bg-black hover:bg-[--bgColor] duration-300"></i>
+                            </button>
+                        </div>                        
+                    </form>
+                </div>
+                <div class="newsletter-content">
+                    <div class="msg-bg w-3/4 bg-[--bgMsgBox] relative px-4 py-7">
+                        <p class="text-white font-semibold text-xs py-4 px-3 bg-[--grayishColor6] me-10 rounded-xl rounded-tl-none">Why should I need your news letter</p>
+                        <p class="text-black text-xs py-4 px-5 bg-white ms-10 rounded-3xl rounded-br-none my-3 relative -right-14">Because we always want our student to be updated with latest information. 😊</p>
+                        <img src="assets/img/People.png" alt="" class="absolute -right-20 bottom-20">
+                        <div class="send-msg flex justify-between items-center border border-[--grayishColor6] rounded-full py-1 px-1">
+                            <p class="text-[--greenColor] font-medium text-xs ps-2">Write message ..</p>
+                            <i class="fa-solid fa-paper-plane text-[--greenColor] text-xs bg-white py-2 px-3 rounded-[50%]"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end newsletter section -->
+
+    <!-- start footer section  -->
+    <footer class="footer-section my-10">
+        <div class="container mx-auto">
+            <div class="footer-wrap grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10 justify-between items-start">
+                <div class="footer-menus">
+                    <h3 class="font-bold capitalize text-lg text-[--blackishColor] pb-3">pages</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">home</a></li>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">about us</a></li>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">courses</a></li>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">blog</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-menus">
+                    <h3 class="font-bold capitalize text-lg text-[--blackishColor] pb-3">resources</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">our home</a></li>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">member stories</a></li>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">video</a></li>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">free trial</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-menus">
+                    <h3 class="font-bold capitalize text-lg text-[--blackishColor] pb-3">company</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">partnership</a></li>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">term of use</a></li>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">privacy</a></li>
+                            <li><a href="#" class="inline-block text-base text-[--grayishColor3] pb-1 capitalize">sitemap</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-menus">
+                    <div class="flex justify-between items-center">
+                        <h3 class="font-bold text-lg text-[--blackishColor] pb-3">Find us at</h3>
+                        <nav>
+                            <ul class="flex">
+                                <li class="bg-[--orangeColor2] py-1 px-2 ms-1 rounded"><a href="#"><i class="fa-brands fa-facebook-f hover:text-[--grayishColor3] duration-300"></i></a></li>
+                                <li class="bg-[--orangeColor2] py-1 px-2 ms-1 rounded"><a href="#"><i class="fa-brands fa-twitter hover:text-[--grayishColor3] duration-300"></i></a></li>
+                                <li class="bg-[--orangeColor2] py-1 px-2 ms-1 rounded"><a href="#"><i class="fa-brands fa-linkedin-in hover:text-[--grayishColor3] duration-300"></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29198.421867866567!2d90.3643136!3d23.8256128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1726440251372!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer section -->
+   <script src="assets/js/app.js"></script>
+</body>
+</html>

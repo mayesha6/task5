@@ -1,0 +1,22 @@
+:root{
+    --blackColor:#000;
+    --blackishColor:#1E1E1E;
+    --btnBg: #54B8FF;
+    --bluishColor:#2F2B71;
+    --bluishColor2:#04004D;
+    --grayishColor:#5F596E;
+    --grayishColor2:#5B5B5B;
+    --grayishColor3:#757575;
+    --grayishColor4:#BDBDBD;
+    --grayishColor5:#878787;
+    --grayishColor6:#4D4D52;
+    --whiteColor:#fff;
+    --greenColor:#336C61;
+    --greenColor2:#DCFFEE;
+    --orangeColor:#FAB408;
+    --orangeColor2:#FFF3D4;
+    --purpleColor:#8785AA;
+    --bgColor:#ade5e4;
+    --bgMsgBox:#63AFB5;
+}
+/* box-shadow: 0px -6px 26px 0px #DDD8C240; */
